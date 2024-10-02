@@ -1,18 +1,33 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DoHe</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title is-1">DoHe</h1>
+        <h2 class="title is-2">Games</h2>
+        <ul>
+          <li>
+            <a href="games/caubat/Caubat.html">
+              <figure class="image is-128x128">
+                <img
+                  alt="pixel art icon for the game caubat"
+                  src="games/caubat/Caubat.icon.png"
+                />
+              </figure>
+              Caubat
+            </a>
+          </li>
+        </ul>
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+    </section>
+  </body>
+</html>
