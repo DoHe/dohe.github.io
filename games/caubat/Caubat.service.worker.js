@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1728227208|385813955';
+const CACHE_VERSION = '1734520634|2289972264';
 /** @type {string} */
 const CACHE_PREFIX = 'Caubat-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
@@ -14,7 +14,7 @@ const OFFLINE_URL = 'Caubat.offline.html';
 const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
 // Files that will be cached on load.
 /** @type {string[]} */
-const CACHED_FILES = ["Caubat.html","Caubat.js","Caubat.offline.html","Caubat.icon.png","Caubat.apple-touch-icon.png","Caubat.worker.js","Caubat.audio.worklet.js"];
+const CACHED_FILES = ["Caubat.html","Caubat.js","Caubat.offline.html","Caubat.icon.png","Caubat.apple-touch-icon.png","Caubat.audio.worklet.js","Caubat.audio.position.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 /** @type {string[]} */
 const CACHABLE_FILES = ["Caubat.wasm","Caubat.pck"];
