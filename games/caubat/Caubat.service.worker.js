@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1747410567|2493498683';
+const CACHE_VERSION = '1747487607|228084631';
 /** @type {string} */
 const CACHE_PREFIX = 'Caubat-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
